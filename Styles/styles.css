@@ -1,0 +1,35 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#logo {
+    text-align: center;
+    display: block;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+
+#tabla_musica table {
+    table-layout: fixed;
+    text-align: left;
+    width: 90%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+#tabla_musica thead{
+    background-color: #c5c4c4;
+}
+#tabla_musica tbody tr:nth-child(odd) {
+    background-color: #e4e3e3;
+}
+#tabla_musica tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
